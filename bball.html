@@ -1,0 +1,34 @@
+<html lang="en">
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basket Ball Scoreboard</title>
+    <link rel="stylesheet" href="bball.css">
+</head>
+        
+    <body>
+        <div class="container">
+            <div class="first-scoreboard">
+                    <h3 id="home">HOME</h3>
+                <div class="black-box1">
+                    <div id="score-number1">0</div>
+                </div>
+                <button onclick="increment1()" id="plus1">+1</button>
+                <button onclick="increment2()" id="plus2">+2</button>
+                <button onclick="increment3()" id="plus3">+3</button>
+            </div>
+            <div class="second-scoreboard">
+                <div>
+                    <h3 id="guest">GUEST</h3>
+                </div>
+                <div class="black-box2">
+                    <div id="score-number2">0</div>
+                </div>
+                <button onclick="increase1()" id="plus1">+1</button>
+                <button onclick="increase2()" id="plus2">+2</button>
+                <button onclick="increase3()" id="plus3">+3</button>
+            </div>
+        </div>
+    </body>
+    <script src="bball.js"></script>
+</html>
